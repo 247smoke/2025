@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Sitemap: https://sunshinesmoke.com/sitemap.xml
+
+# Protect private pages
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+
+# Allow product pages
+Allow: /shop/
+Allow: /products/
+Allow: /categories/
+
+# Allow blog pages
+Allow: /blog/
